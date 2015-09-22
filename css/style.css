@@ -1,8 +1,4 @@
-/*
-Theme Name: Simple Parallax Website
-Description: Simple Parallax Scrolling Effect
-Author: Samuel Dalusung
-*/
+
 
 /*= GENERAL STYLING
 --------------------------------------------------------*/
@@ -14,7 +10,7 @@ body{
 }
 
 h1 {
-    font-family:"Arvo";
+  font-family:serif;
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
@@ -24,7 +20,7 @@ h1 {
 }
 
 h2 {
-   font-family:"Arvo";
+   font-family:serif;
    font-weight: normal;
    font-size: 40px;
    text-align: center;
