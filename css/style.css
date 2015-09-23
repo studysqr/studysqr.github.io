@@ -66,8 +66,8 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 410px; float: right; margin-top: 20px; }
-#logo1 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
-#logo2 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo1 a { color: #fff; text-decoration: none; float: left; font-size: 0px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo2 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 10px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
 	list-style: none;
 	display: block;
