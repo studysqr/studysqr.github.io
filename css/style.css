@@ -14,7 +14,7 @@ body{
 }
 
 h1 {
-    font-family:"Arvo";
+  font-family:"Arvo";
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
@@ -24,21 +24,21 @@ h1 {
 }
 
 h2 {
-   font-family:"Arvo";
-   font-weight: normal;
-   font-size: 40px;
-   text-align: center;
-   color: #fff;
-   margin: 0;
+  font-family:"Arvo";
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
 	padding: 0;
 }
 
 h3 {
-   font-family: Oswald;
-   font-weight: normal;
-   font-size: 16px;
-   text-align: center;
-   margin: 5px 0;
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
 	padding: 0;
 	z-index: 1;
 	position: relative;
@@ -65,7 +65,7 @@ a.rpanel:hover{ color: #fff; }
 	margin-top: 30px;
 }
 
-#nav { width: 460px; float: right; margin-top: 20px; }
+#nav { width: 455px; float: right; margin-top: 20px; }
 #logo1 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 10px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #logo2 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 30px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
@@ -100,6 +100,7 @@ a.rpanel:hover{ color: #fff; }
  .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
  .quotes_container { width: 800px; margin: 0 auto; }
+
 #christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
 #ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
@@ -146,7 +147,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide2{
 	background-color: #fff;
-	color: #333333;
+	color: #33333f;
 	height: 300px;
 	margin: 0 auto;
 	overflow: hidden;
