@@ -14,29 +14,29 @@ body{
 }
 
 h1 {
-  font-family:"Arvo";
+  font-family:'Open sans';
 	font-weight:normal;
-	font-size: 55px;
-	text-align: center;
-	color: #fff;
+	font-size: 50px;
+	text-align:left;
+	color: #000;
 	margin: 0;
 	padding: 0;
 }
 
 h2 {
-  font-family:"Arvo";
+  font-family:'Open sans';
   font-weight: normal;
-  font-size: 40px;
+  font-size: 115px;
   text-align: center;
-  color: #fff;
+  color: #1919ff;
   margin: 0;
 	padding: 0;
 }
 
 h3 {
-  font-family: Oswald;
+  font-family: 'Open sans';
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   margin: 5px 0;
 	padding: 0;
@@ -44,16 +44,16 @@ h3 {
 	position: relative;
 }
 
-
-
+/*
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
-a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
-a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:Times; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:Times; text-decoration: none; margin: 7px 11px; }
 
 a.lpanel:hover{ color: #fff; }
 a.rpanel:hover{ color: #fff; }
+*/
 /*= HEADER & NAVIGATION
 --------------------------------------------------------*/
 
@@ -66,8 +66,8 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #nav { width: 455px; float: right; margin-top: 20px; }
-#logo1 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 10px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
-#logo2 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 30px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo1 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 10px; color: #fff; font-family:'Open sans'; font-weight: bold; }
+#logo2 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 30px; color: #fff; font-family:'Open sans'; font-weight: bold; }
 #nav ul{
 	list-style: none;
 	display: block;
@@ -81,7 +81,7 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Open sans'; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1;  }
 
