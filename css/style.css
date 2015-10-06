@@ -79,7 +79,6 @@ h6 {
 
 #header {
 	width: 100%;
-	/*background: url('../img/header-bg.png');*/
 	height: 80px;
 	position: fixed;
 	margin-top: 30px;
@@ -87,10 +86,7 @@ h6 {
 
 
 #nav { width: 500px; float: right; margin-top: -30px; }
-/*
-#logo1 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 10px; color: #fff; font-family:'Open sans'; font-weight: bold; }
-#logo2 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 30px; color: #fff; font-family:'Open sans'; font-weight: bold; }
-*/
+
 #nav ul{
 	list-style: none;
 	display: block;
