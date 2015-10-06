@@ -12,33 +12,33 @@ body{
 	padding: 0;
 	width: 100%;
 }
-
+/*
 h1 {
   font-family:'Open sans';
 	font-weight:normal;
-	font-size: 50px;
+	font-size: 20px;
 	text-align:left;
 	color: #000;
 	margin: 0;
 	padding: 0;
 }
-
+*/
 h2 {
   font-family:'Open sans';
   font-weight: normal;
-  font-size: 115px;
+  font-size: 70px;
   text-align: center;
-  color: #1919ff;
-  margin: 0;
+  color: #fff;
+  margin: 150px;
 	padding: 0;
 }
 
 h3 {
   font-family: 'Open sans';
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
-  margin: 5px 0;
+  margin: -150px 0;
 	padding: 0;
 	z-index: 1;
 	position: relative;
@@ -59,15 +59,18 @@ a.rpanel:hover{ color: #fff; }
 
 #header {
 	width: 100%;
-	background: url('../img/header-bg.png');
+	/*background: url('../img/header-bg.png');*/
 	height: 80px;
 	position: fixed;
 	margin-top: 30px;
 }
 
-#nav { width: 455px; float: right; margin-top: 20px; }
+
+#nav { width: 500px; float: right; margin-top: -30px; }
+/*
 #logo1 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 10px; color: #fff; font-family:'Open sans'; font-weight: bold; }
 #logo2 a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 30px; color: #fff; font-family:'Open sans'; font-weight: bold; }
+*/
 #nav ul{
 	list-style: none;
 	display: block;
@@ -90,7 +93,7 @@ a.rpanel:hover{ color: #fff; }
 /*= QUOTES AND SOME ELEMENTS
 --------------------------------------------------------*/
 .quotes {
- font-family: 'Goudy Bookletter 1911', serif;
+ font-family: 'Open sans';
    font-weight: normal;
    font-size: 30px;
   text-align: left;
@@ -101,12 +104,13 @@ a.rpanel:hover{ color: #fff; }
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
  .quotes_container { width: 800px; margin: 0 auto; }
 
+/*
 #christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
 #ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
 #snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -54px; left: -102px; }
 #snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -33px;  right: -100px; }
-
+*/
 
 
 /*= BUTTONS
@@ -139,14 +143,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 600px;
+	height: 650px;
 	margin: 0;
 	padding: 200px 0 260px 0;
 	background-size: cover;
 }
 
 #slide2{
-	background-color: #fff;
+	background-color: #DAD6D6;
 	color: #33333f;
 	height: 300px;
 	margin: 0 auto;
@@ -163,7 +167,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide4{
-	background-color: #fff;
+	background-color: #DAD6D6;
 	color: #333333;
 	height: 300px;
 	padding: 200px 0;
@@ -171,7 +175,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide5{
 	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
-	height: 200px;
+	height: 550px;
 	margin: 0 auto;
 	padding: 250px 0;
 	color: #fff;
