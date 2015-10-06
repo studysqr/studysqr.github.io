@@ -11,17 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/bob.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6554,
-		"inputAbbreviatedPath": "\/img\/bob.png",
-		"outputAbbreviatedPath": "\/img\/bob.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/chessgame.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -33,61 +22,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/christmas-tree.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1749,
-		"inputAbbreviatedPath": "\/img\/christmas-tree.png",
-		"outputAbbreviatedPath": "\/img\/christmas-tree.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/divider.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1017,
-		"inputAbbreviatedPath": "\/img\/divider.png",
-		"outputAbbreviatedPath": "\/img\/divider.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/dr-seuss.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4940,
-		"inputAbbreviatedPath": "\/img\/dr-seuss.png",
-		"outputAbbreviatedPath": "\/img\/dr-seuss.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/header-bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 181,
-		"inputAbbreviatedPath": "\/img\/header-bg.png",
-		"outputAbbreviatedPath": "\/img\/header-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/norman.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6455,
-		"inputAbbreviatedPath": "\/img\/norman.png",
-		"outputAbbreviatedPath": "\/img\/norman.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/racket.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -95,17 +29,6 @@
 		"initialSize": 697957,
 		"inputAbbreviatedPath": "\/img\/racket.png",
 		"outputAbbreviatedPath": "\/img\/racket.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/ribbon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1100,
-		"inputAbbreviatedPath": "\/img\/ribbon.png",
-		"outputAbbreviatedPath": "\/img\/ribbon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -161,17 +84,6 @@
 		"initialSize": 9475,
 		"inputAbbreviatedPath": "\/img\/slides.png",
 		"outputAbbreviatedPath": "\/img\/slides.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/snowflakes.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 549,
-		"inputAbbreviatedPath": "\/img\/snowflakes.png",
-		"outputAbbreviatedPath": "\/img\/snowflakes.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
