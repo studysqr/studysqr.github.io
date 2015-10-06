@@ -77,17 +77,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/pattern.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9475,
-		"inputAbbreviatedPath": "\/img\/pattern.png",
-		"outputAbbreviatedPath": "\/img\/pattern.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/ribbon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -139,6 +128,17 @@
 		"initialSize": 416395,
 		"inputAbbreviatedPath": "\/img\/slide5.jpg",
 		"outputAbbreviatedPath": "\/img\/slide5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slides.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9475,
+		"inputAbbreviatedPath": "\/img\/slides.png",
+		"outputAbbreviatedPath": "\/img\/slides.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

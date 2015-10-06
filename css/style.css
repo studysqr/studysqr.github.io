@@ -12,17 +12,17 @@ body{
 	padding: 0;
 	width: 100%;
 }
-/*
+
 h1 {
   font-family:'Open sans';
 	font-weight:normal;
-	font-size: 20px;
+	font-size: 0px;
 	text-align:left;
 	color: #000;
 	margin: 0;
 	padding: 0;
 }
-*/
+
 h2 {
   font-family:'Open sans';
   font-weight: normal;
@@ -43,6 +43,7 @@ h3 {
 	z-index: 1;
 	position: relative;
 }
+
 
 /*
 .center { margin: 0 auto; }
@@ -84,9 +85,9 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 21px;
 }
 
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Open sans'; }
-#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
-#nav li a:hover { color: #fff; opacity:1;  }
+#nav li a { color: #929292; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Open sans'; }
+#nav li a.active { color: #929292; opacity:1; border-bottom: 2px solid #929292; }
+#nav li a:hover { color: #929292; opacity:1;  }
 
 
 
@@ -95,7 +96,7 @@ a.rpanel:hover{ color: #fff; }
 .quotes {
  font-family: 'Open sans';
    font-weight: normal;
-   font-size: 30px;
+   font-size: 20px;
   text-align: left;
   margin: 50px auto;
 }
@@ -103,6 +104,8 @@ a.rpanel:hover{ color: #fff; }
  .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
  .quotes_container { width: 800px; margin: 0 auto; }
+
+#linkedin { colout: #fff; font-family:'Open sans'}
 
 /*
 #christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
@@ -150,7 +153,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide2{
-	background-color: #DAD6D6;
+	background-color: url(../img/slides.png) 100% 0;
 	color: #33333f;
 	height: 300px;
 	margin: 0 auto;
@@ -185,6 +188,5 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 /*= FOOTER
 --------------------------------------------------------*/
-
 #copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
 #copyright  a { text-decoration: none; color: #fff;  }
