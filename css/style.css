@@ -44,6 +44,25 @@ h3 {
 	position: relative;
 }
 
+h4 {
+  font-family:'Open sans';
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #fff;
+  margin: 0px;
+	padding: 0;
+}
+h5 {
+  font-family:'Open sans';
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #fff;
+  margin: 0px;
+	padding: 0;
+}
+
 
 /*
 .center { margin: 0 auto; }
@@ -150,7 +169,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide3{
 	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 600px;
+	height: 700px;
 	padding: 170px 0 0 0;
 	background-size: cover;
 }
@@ -159,7 +178,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-color: #fff;
 	color: #333333;
 	height: 300px;
-	padding: 200px 0;
+	padding: 190px 0;
 }
 
 #slide5{
@@ -171,6 +190,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-size: cover;
 }
 
+
+/*= IMG
+--------------------------------------------------------*/
 
 /*= FOOTER
 --------------------------------------------------------*/
@@ -187,6 +209,7 @@ a:hover {
   color: #0fb7b7;
   text-decoration: underline;
 }
+
 /*
 #copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
 #copyright  a { text-decoration: none; color: #fff;  }
