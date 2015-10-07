@@ -48,8 +48,8 @@ h4 {
   font-family:'Open sans';
   font-weight: normal;
   font-size: 30px;
-  text-align: left;
-  color: #fff;
+  text-align: center;
+  color: #D1D0CE;
   margin: 0px;
 	padding: 0;
 }
@@ -124,7 +124,7 @@ h6 {
 	 margin: 5px 0;
 }
  .quotes_container { width: 600px; margin: -90px auto; }
- .skill_container { width: 500px; margin: -90px auto; }
+ .skill_container { width: 500px; margin: -100px auto; }
 
 /*= BUTTONS
 --------------------------------------------------------*/
