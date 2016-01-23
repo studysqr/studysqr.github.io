@@ -115,9 +115,10 @@ p {
 }
 
 #inter{
+  background-color: #848484;
   position:absolute;
   font-family: sans-serif;
-  color: #fff;
+  color: #848484;
   top: 50%;
   left: 50%;
   width: 400px;
