@@ -109,10 +109,10 @@ p {
   width: 400px;
   height: 400px;
   margin-top: -170px;
-  margin-left: -250px;
+  margin-left: -200px;
 
-  /*debugging purposes
-  border:solid 1px blue;*/
+  /*debugging purposes*/
+  border:solid 1px blue;
 }
 
 #log{
