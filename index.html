@@ -31,29 +31,29 @@
 
       <script>
 
-      // $.ajax({
-      //   url:"https://watstudy.herokuapp.com/api/all",
-      //   type: 'GET',
-      //   dataType: 'jsonp',
-      //   complete : function(data){
-      //     //data is a variable containing the returned data
-      //     console.log(data[0]);
-      //
-      //   },
-      //   error : function(){
-      //     console.log("hello");
-      //   }
-      // });
-
       $.ajax({
-        url: "https://watstudy.herokuapp.com/api/all?",
-        beforeSend: function( xhr ) {
-          xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+        url:"https://watstudy.herokuapp.com/api/all",
+        type: 'GET',
+        dataType: 'jsonp',
+        complete : function(data){
+          //data is a variable containing the returned data
+          console.log(data[0]);
+
+        },
+        error : function(){
+          console.log("hello");
         }
-      })
-        .done(function( data ) {
-          console.log(data)
-        });
+      });
+
+      // $.ajax({
+      //   url: "https://watstudy.herokuapp.com/api/all?",
+      //   beforeSend: function( xhr ) {
+      //     xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+      //   }
+      // })
+      //   .done(function( data ) {
+      //     console.log(data)
+      //   });
 
     </script>
 
@@ -66,7 +66,7 @@
     <div>
 
     <div id="footer">
-      Copyright © waterloodump.com
+      Copyright © jpap.com
     </div>
 
 
