@@ -32,13 +32,10 @@
       <script>
 
       $.ajax({
-        url:"https://watstudy.herokuapp.com/api/all1",
+        url:"https://watstudy.herokuapp.com/api/all1/",
         type: 'GET',
         dataType: 'jsonp',
-        beforeSend: function( xhr ) {
-            xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
-          },
-        complete : function(data){
+        success : function(data){
           //data is a variable containing the returned data
           console.log(data[0]);
 
