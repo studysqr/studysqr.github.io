@@ -118,6 +118,26 @@ p {
     color: grey;
 }
 
+#inter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    list-style-type: none;
+    background-color: #F5ECCE;
+    opacity:0.5;
+    /*debugging purposes
+    border: 1px solid red;*/
+}
+
+#inter li {
+    float: left;
+    font-size: 20px;
+    color: #fff;
+}
+
+
 #sector1 {
   margin-top: -100px;
   /*debugging purposes
