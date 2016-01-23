@@ -109,9 +109,8 @@ p {
   width: 400px;
   height: 400px;
   margin-top: -170px;
-  margin-left: -190px;
-  align-content: center;
-  align-items: center;
+  margin-left: -250px;
+
   /*debugging purposes
   border:solid 1px blue;*/
 }
