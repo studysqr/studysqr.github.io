@@ -106,6 +106,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/rain4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230982,
+		"inputAbbreviatedPath": "\/img\/rain4.jpg",
+		"outputAbbreviatedPath": "\/img\/rain4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/s.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
