@@ -78,6 +78,8 @@ p {
     overflow: hidden;
     display: inline-block;
     list-style-type: none;
+    background-color: #F5ECCE;
+    opacity:0.5;
     /*debugging purposes
     border: 1px solid red;*/
 }
@@ -94,8 +96,8 @@ p {
     text-align: center;
     padding: 3px 40px;
     text-decoration: none;
-    color: #929292;
-     opacity:0.6;
+    opacity:0.6;
+
 }
 
 #nav li a.active {
