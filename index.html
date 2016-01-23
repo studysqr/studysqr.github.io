@@ -35,6 +35,9 @@
         url:"https://watstudy.herokuapp.com/api/all",
         type: 'GET',
         dataType: 'jsonp',
+        beforeSend: function( xhr ) {
+            xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+          },
         complete : function(data){
           //data is a variable containing the returned data
           console.log(data[0]);
@@ -47,9 +50,7 @@
 
       // $.ajax({
       //   url: "https://watstudy.herokuapp.com/api/all?",
-      //   beforeSend: function( xhr ) {
-      //     xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
-      //   }
+      //
       // })
       //   .done(function( data ) {
       //     console.log(data)
