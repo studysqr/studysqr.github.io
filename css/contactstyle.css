@@ -126,6 +126,7 @@ p {
     padding: 0;*/
     color: #A4A4A4;
     text-align: center;
+    list-style-type: none;
     /*debugging purposes
     border: 1px solid red;*/
 }
