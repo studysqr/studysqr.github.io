@@ -118,6 +118,7 @@ p {
 }
 
 #inter ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     color: #A4A4A4;
