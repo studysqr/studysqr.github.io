@@ -2,13 +2,14 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>watemeet</title>
-    <link rel="stylesheet" href="../css/contactstyle.css">
+    <title>StudySqr</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
   </head>
   <body>
     <div id="header">
-      <h1>WatMeet</h1>
+      <h1>StudySqr</h1>
     </div>
 
 <!-- Maybe we dont need a navigator -->
@@ -23,10 +24,99 @@
 
 
     <div id="sector1">
-      <h2> Are you looking for a study gflaksdonfadsnonoroup?</h2>
+      <h2> Are you looking for a study group?</h2>
+      <h3> Most recent </h3>
     </div>
 
     <div id="inter">
+
+      <script>
+
+
+
+      // $.ajax({
+      //   // url:"https://watstudy.herokuapp.com/api/all1/",
+        // type: 'GET',
+        // dataType: "text",
+        // success : function(data){
+        //   //data is a variable containing the returned data
+        //   console.log(JSON.parse(data));
+        //   var i = JSON.parse(data).length;
+        //
+        //   var a = function(){
+        //     for (p = 0; p < i; p++){
+        //       var k = JSON.parse(data)[p];
+        //       document.writeln(k.coursePrefix + " ");
+        //     }
+        //   }
+        //
+        //   document.getElementById("log").innerHTML= a();
+
+          // for (p = 0; p < i; p++){
+          //   var k = JSON.parse(data)[p];
+          //   document.getElementById("log2").innerHTML=k.courseNumber + " available at ";
+          // }
+          // for (p = 0; p < i; p++){
+          //   var k = JSON.parse(data)[p];
+          //   document.getElementById("log3").innerHTML=k.location + "\n";
+          // }
+
+      //   },
+      //   error: function(error){
+      //     console.log("error");
+      //   }
+      // });
+
+      $.ajax({
+        url:"https://watstudy.herokuapp.com/api/all1/",
+        type: 'GET',
+        dataType: "text",
+        success : function(data){
+          //data is a variable containing the returned data
+          // console.log(JSON.parse(data));
+          // var i = JSON.parse(data).length;
+          // for (p = 0; p < i; p++){
+          //   var k = JSON.parse(data)[p];
+          //   document.writeln(k.coursePrefix);
+          //   // document.getElementById("log2").innerHTML=k.courseNumber + " available at ";
+          //   // document.getElementById("log3").innerHTML=k.location + "\n";
+          // }
+          var pee = JSON.parse(data);
+          console.log(pee);
+          var tbl=$("<table/>").attr("id","mytable");
+          $("#inter").append(tbl);
+
+          var min = function(a,b){
+            if (a < b){
+              return a;
+            } else {
+              return b;
+            }
+          }
+
+          var peemin = min(pee.length, 10);
+
+          for(var i=0;i<peemin;i++)
+          {
+            var tr="<tr>";
+            var td1="<td align=\"right\">"+pee[i]["coursePrefix"]+" "+pee[i]["courseNumber"]+"</td>";
+            var td2="<td>"+" at "+"</td>";
+            var td3="<td>"+pee[i]["location"]+"</td></tr>";
+
+            $("#mytable").append(tr+td1+td2+td3);
+
+          }
+
+        },
+        error: function(error){
+          console.log("error");
+        }
+      });
+    </script>
+    </div>
+
+    <div id="hook">
+      Download the application
     </div>
 
     <div id="link">
@@ -36,7 +126,7 @@
     <div>
 
     <div id="footer">
-      Copyright © waterloodump.com
+      Copyright © jpap.com
     </div>
 
 

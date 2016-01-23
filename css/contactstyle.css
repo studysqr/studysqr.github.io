@@ -30,8 +30,10 @@ h2 {
 }
 
 h3 {
+  font-family: sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
+  margin: -100px;
 }
 /*
 p {
@@ -104,26 +106,38 @@ p {
 
 #inter{
   position:absolute;
+  font-family: sans-serif;
   top: 50%;
   left: 50%;
   width: 400px;
   height: 400px;
-  border:solid 1px blue;
-  margin-top: -200px;
-  margin-left: -190px;
+  margin-top: -100px;
+  margin-left: -90px;
+
+  /*debugging purposes
+  border:solid 1px blue;*/
+}
+
+#hook{
+  text-align: center;
+  margin-top: 500px;
+  font-family: sans-serif;
+
 }
 
 #link{
-  margin: 450px;
+  margin: 105px;
   /*debugging purposes
   padding: 0;
   border: 1px solid purple;*/
 }
+
 #footer{
   background-color:white;
   color: #000;
   height:auto;
   clear:both;
   text-align:center;
+  margin:100px;
   padding:5px;
 }
