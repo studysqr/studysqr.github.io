@@ -127,6 +127,7 @@ p {
 #inter{
   background-color: #F5ECCE;
   opacity:0.5;
+  position: relative;
   align-self: center;
   font-family: sans-serif;
   color: #000;
