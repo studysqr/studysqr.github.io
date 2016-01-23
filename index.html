@@ -25,6 +25,7 @@
 
     <div id="sector1">
       <h2> Are you looking for a study group?</h2>
+      <h3> Most recent </h3>
     </div>
 
     <div id="inter">
@@ -84,14 +85,17 @@
           console.log(pee);
           var tbl=$("<table/>").attr("id","mytable");
           $("#inter").append(tbl);
-          for(var i=0;i<pee.length;i++)
+
+          var peemin = min(pee.length, 10);
+
+          for(var i=0;i<peemin;i++)
           {
             var tr="<tr>";
             var td1="<td>"+pee[i]["coursePrefix"]+"</td>";
             var td2="<td>"+pee[i]["courseNumber"]+"</td>";
             var td3="<td>"+pee[i]["location"]+"</td></tr>";
 
-            $("#mytable").append(tr+td1+td2+td3);
+            $("#mytable").append(tr+td1+" at "+td2+td3);
 
           }
 
@@ -101,9 +105,10 @@
         }
       });
     </script>
-      <div id="log"></div>
-      <div id="log2"></div>
-      <div id="log3"></div>
+    </div>
+
+    <div id="hook">
+      Download the application
     </div>
 
     <div id="link">
