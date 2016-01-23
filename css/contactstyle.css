@@ -118,11 +118,8 @@ p {
 }
 
 #inter ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    list-style-type: none;
     color: #A4A4A4;
     /*debugging purposes
     border: 1px solid red;*/
