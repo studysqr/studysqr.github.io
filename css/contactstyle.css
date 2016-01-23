@@ -122,7 +122,6 @@ p {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: inline-block;
     list-style-type: none;
     opacity:0.5;
     color: #A4A4A4;
