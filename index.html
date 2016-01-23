@@ -5,7 +5,7 @@
     <title>StudySqr</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <!-- <script>
+    <script>
     $.ajax({
       url:"https://watstudy.herokuapp.com/api/all1/",
       type: 'GET',
@@ -14,7 +14,7 @@
         var pee = JSON.parse(data);
         console.log(pee);
         var tbl=$("<table align=\"center\">").attr("id","mytable");
-        $("#inter").append(tbl);
+        $("#new").append(tbl);
 
         var min = function(a,b){
           if (a < b){
@@ -42,7 +42,7 @@
         console.log("error");
       }
     });
-  </script> -->
+  </script>
 
   </head>
   <body>
@@ -68,7 +68,7 @@
       <h3> Most recent study sessions</h3>
     </div>
 
-    <div id="inter">
+    <div id="new">
     </div>
 
     <div id="hook">

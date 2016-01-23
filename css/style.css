@@ -123,7 +123,7 @@ p {
   /*debugging purposes
   border: 1px solid yellow;*/
 }
-
+/*
 #inter{
   background-color: #F5ECCE;
   opacity:0.5;
@@ -131,13 +131,18 @@ p {
   color: #000;
   margin-top: 150px;
   margin-left: 550px;
-  /*
+
   width: 300px;
   height: 250px;
   /*debugging purposes
-  border:solid 1px blue;*/
+  border:solid 1px blue;
 }
+*/
 
+#new{
+  color: #000;
+  background-color: #F5ECCE;
+}
 #hook{
   text-align: center;
   margin-top: 50px;
