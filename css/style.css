@@ -126,7 +126,7 @@ p {
   width: 400px;
   height: 300px;
   margin-top: -100px;
-  margin-left: -100px;
+  margin-left: -200px;
 
   /*debugging purposes
   border:solid 1px blue;*/
@@ -136,7 +136,7 @@ p {
   text-align: center;
   margin-top: 500px;
   font-family: sans-serif;
-  color: #848484;
+  color: #000;
 
 }
 
