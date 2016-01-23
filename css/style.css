@@ -111,25 +111,25 @@ p {
   margin-top: -170px;
   margin-left: -70px;
 
-  /*debugging purposes*/
-  border:solid 1px blue;
+  /*debugging purposes
+  border:solid 1px blue;*/
 }
 
 #log{
-  /*debugging purposes*/
-  border:solid 1px blue;
+  /*debugging purposes
+  border:solid 1px blue;*/
   display: inline-block;
 }
 
 #log2{
-  /*debugging purposes*/
-  border:solid 1px blue;
+  /*debugging purposes
+  border:solid 1px blue;*/
   display: inline-block;
 }
 
 #log3{
-  /*debugging purposes*/
-  border:solid 1px blue;
+  /*debugging purposes
+  border:solid 1px blue;*/
   display: inline-block;
 }
 
