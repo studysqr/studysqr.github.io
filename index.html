@@ -31,14 +31,29 @@
 
       <script>
 
+      // $.ajax({
+      //   url:"https://watstudy.herokuapp.com/api/all1/",
+      //   type: 'GET',
+      //   dataType: "text",
+      //   success : function(data){
+      //     //data is a variable containing the returned data
+      //     console.log(JSON.parse(data));
+      //
+      //   }
+      // });
+
+
       $.ajax({
-        url:"https://watstudy.herokuapp.com/api/all1/",
+        url:"https://watstudy.herokuapp.com/api/all/",
         type: 'GET',
-        dataType: "text",
+        dataType: "jsonp",
         success : function(data){
           //data is a variable containing the returned data
-          console.log(JSON.parse(data));
+          console.log(data);
 
+        },
+        error : function(err){
+          console.log("break")
         }
       });
 
