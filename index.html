@@ -1,144 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-     <title>Joel Zeng</title>
-     <link rel="stylesheet" href="css/style.css"/>
-	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-     <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
-     <link href='http://fonts.googleapis.com/css?family=Open+Sans'rel='stylesheet' type='text/css'>
-	<script>
+    <meta charset="UTF-8">
+    <title>watemeet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
-<!----- JQUERY FOR SLIDING NAVIGATION --->
-$(document).ready(function() {
-  $('a[href*=#]').each(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
-         $(this).click(function() {
-            $("#nav li a").removeClass("active");
-            $(this).addClass('active');
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
-           return false;
-         });
-      }
-    }
-  });
-
-});
-
-
-</script>
-
-
-</head>
-
-<body>
-
-<!----- HEADER START--->
-<header id="header">
-<div class="content">
-
-<nav id="nav" >
-	<ul>
-		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
-		<li><a href="#slide2" title="Next Section">About me</a></li>
-		<li><a href="#slide3" title="Next Section">Projects</a></li>
-		<li><a href="#slide4" title="Next Section">Skills & Interest</a></li>
-		<li><a href="#slide5" title="Next sSection">Contact</a></li>
-	</ul>
-</nav>
-</div>
-</header>
-<!----- HEADER END----->
-
-<!----- SLIDES START --->
-	<div id="slide1">
-		<div class="content">
-          <h2>I am Joel</h2>
-		    <div id="divider"> </div>
-		     <h3> I like to Code & Learn </h3>
-		</div>
+  </head>
+  <body>
+    <div id="header">
+      <h1>WatMeet</h1>
     </div>
 
-	<div id="slide2">
-		<div class="content" >
-            <div class="quotes_container">
-        <h1> My Name is Joel Zeng </h1>
-		    <p class="quotes">I am a currently studying Computer Science at the University of Waterloo.
-        I also love coding and solving problems.</p>
-        <p class="quotes"> I am currently looking for interships or part time jobs to feed my hunger for programming and knowledge.
-        If you want, you can view my <a href="https://ca.linkedin.com/pub/joel-zeng/107/360/94"> LinkedIn</a> and
-        <a href="https://www.github.com/joelzeng"> Github</a> profile.</p>
-        <p class="quotes"> I started studying computer science in 2014, since then i have loved everything about programming.
-          I try my best to spend some time on projects, but school never fails to keep me busy. I am an avid learner and I am always willing
-        to improve. If you have any questions, feedback, or just want to say hello, you can contact 
-		  		me at <a href="mailto:joelzeng@hotmil.com">joelzeng@hotmail.com</a>.</p>
-		      </div>
-		</div>
-  </div>
-
-
-   <div id="slide3">
-		<div class="content">
-			   <div class="quotes_container">
-           <h4> Translaid </h4>
-           <img src="img/translaid.jpeg" alt="translaid" align="left" height="300" width="597"/>
-           <h4> Projects </h4>
-           <h4> Chess Game </h4>
-           <img src="img/chessgame.png" alt="chessgame" align="left" height="300" width="579"/>
-		       <h4> Peg Solitaire & sudoku </h4>
-           <img src="img/racket.png" alt="racket" align="left" height="300" width="579"/>
-         </div>
-		</div>
+<!-- Maybe we dont need a navigator -->
+    <div id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="#contact">Download</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
     </div>
 
 
-	<div id="slide4">
-		<div class="content">
-              <div class="skill_container">
-        <h5><strong>Computer Skills</strong></h5>
-		    <h6><strong> Programming: </strong></h6>
-        <p class="skills"><strong>Proficient:</strong> Racket, C, C++, JavaScript, HTML, CSS</p>
-        <p class="skills"><strong>Learning:</strong> Java, MIPS</p>
-        <p class="skills"><strong>Familiar:</strong> Python</p>
-
-        <h6><strong> Design: </strong></h6>
-        <p class="skills"><strong>Proficient:</strong> Adobe Photoshop, Adobe Premiere Pro, Adobe Flash</p>
-
-        <h6><strong> Development Tools: </strong></h6>
-        <p class="skills"><strong>Proficient:</strong> DrRacket, SeaShell, Adobe Dreamweaver</p>
-        <p class="skills"><strong>Familiar:</strong> Eclipse, Xcode, Github</p>
-
-        <h5><strong>Interest & Activities</strong></h5>
-        <p class="skills">Passionate Guitarist</p>
-        <p class="skills">Avid amateur Chef</p>
-        <p class="skills">Enjoy Reading programming and self-improvement books</p>
-        <p class="skills">Astute Learner </p>
-
-		</div>
-		</div>
+    <div id="sector1">
+      <h2> Are you looking for a study group?</h2>
     </div>
 
+    <div id="inter">
 
-	<div id="slide5">
+      <script>
+
+      // $.ajax({
+      //   url:"https://watstudy.herokuapp.com/api/all",
+      //   type: 'GET',
+      //   dataType: 'jsonp',
+      //   complete : function(data){
+      //     //data is a variable containing the returned data
+      //     console.log(data[0]);
+      //
+      //   },
+      //   error : function(){
+      //     console.log("hello");
+      //   }
+      // });
+
+      $.ajax({
+        url: "https://watstudy.herokuapp.com/api/all?",
+        beforeSend: function( xhr ) {
+          xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+        }
+      })
+        .done(function( data ) {
+          console.log(data)
+        });
+
+    </script>
+
+    </div>
+
+    <div id="link">
+      <h3><a href="">
+      <img src="../img/Gplay.png" alt="Google Play" style="width:100px;height:100px;">
+      </a></h3>
     <div>
-		<div id="end"> If you have any questions, feedback, or just want to say hello, you can contact <a href="mailto:joelzeng@hotmil.com"> joelzeng@hotmail.com</a>.</div>
-    <p id="end" > code & design by Joel Zeng. </p>
-  </div>
-	</div>
 
-<!----- SLIDES END --->
+    <div id="footer">
+      Copyright © waterloodump.com
+    </div>
 
-</body>
+
+  </body>
 </html>
