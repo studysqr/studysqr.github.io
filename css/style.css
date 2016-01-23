@@ -131,6 +131,10 @@ p {
   border:solid 1px blue;*/
 }
 
+#id{
+  text-align: center;
+}
+
 #hook{
   text-align: center;
   margin-top: 500px;
