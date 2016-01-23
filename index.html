@@ -34,10 +34,10 @@
       $.ajax({
         url:"https://watstudy.herokuapp.com/api/all1/",
         type: 'GET',
-        dataType: 'jsonp',
+        dataType: "text",
         success : function(data){
           //data is a variable containing the returned data
-          console.log(data[0]);
+          console.log(data);
 
         }
       });
