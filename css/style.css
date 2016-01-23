@@ -114,6 +114,24 @@ p {
   border:solid 1px blue;*/
 }
 
+#log{
+  /*debugging purposes*/
+  border:solid 1px blue;
+  display: inline-block;
+}
+
+#log2{
+  /*debugging purposes*/
+  border:solid 1px blue;
+  display: inline-block;
+}
+
+#log3{
+  /*debugging purposes*/
+  border:solid 1px blue;
+  display: inline-block;
+}
+
 #link{
   margin: 450px;
   /*debugging purposes
