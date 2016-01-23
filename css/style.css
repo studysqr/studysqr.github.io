@@ -30,9 +30,10 @@ h2 {
 }
 
 h3 {
+  font-family: sans-serif;
   text-align: center;
-  font-size: 10px;
-  margin: 100px;
+  font-size: 15px;
+  margin: -100px;
 }
 /*
 p {
@@ -117,20 +118,24 @@ p {
 }
 
 #hook{
-  align-content: center;
+  text-align: center;
+  margin-top: 500px;
+
 }
 
 #link{
-  margin: 450px;
+  margin: 105px;
   /*debugging purposes
   padding: 0;
   border: 1px solid purple;*/
 }
+
 #footer{
   background-color:white;
   color: #000;
   height:auto;
   clear:both;
   text-align:center;
+  margin:100px;
   padding:5px;
 }
