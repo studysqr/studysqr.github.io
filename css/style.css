@@ -131,6 +131,8 @@ p {
   font-family: sans-serif;
   color: #000;
   text-align: center;
+  margin-top: 50px;
+  margin-left: 100px;
 
   /*debugging purposes
   border:solid 1px blue;*/
