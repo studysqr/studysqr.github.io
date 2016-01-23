@@ -116,6 +116,7 @@ p {
 
 #inter{
   background-color: #848484;
+  opacity:0.6;
   position:absolute;
   font-family: sans-serif;
   color: #848484;
