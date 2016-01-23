@@ -116,6 +116,10 @@ p {
   border:solid 1px blue;*/
 }
 
+#hook{
+  align-content: center;
+}
+
 #link{
   margin: 450px;
   /*debugging purposes
