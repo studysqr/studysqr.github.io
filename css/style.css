@@ -16,7 +16,7 @@ h1 {
   font-family: sans-serif;
   font-size: 70px;
   text-align: center;
-  color: #000;
+  color: #fff;
   padding: 0px;
   margin: 20px;
   /*debugging purposes
@@ -27,7 +27,7 @@ h2 {
   font-family: sans-serif;;
   font-size: 20px;
   text-align: center;
-  color: #000;
+  color: #fff;
   padding: 10px;
   margin: 110px;
   /*debugging purposes
@@ -39,6 +39,7 @@ h3 {
   text-align: center;
   font-size: 15px;
   margin: -100px;
+  color: #fff;
 }
 /*
 p {
@@ -55,10 +56,9 @@ p {
 /* Divicions */
 
 #header {
-  background-color:#fff;
-  color:#fff;
   text-align:center;
   padding:0px;
+  color: #fff;
   /*debugging purposes
   border: 1px solid red;*/
 }
@@ -68,7 +68,7 @@ p {
   font-family: sans-serif;;
   font-size: 14px;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 #nav ul {
@@ -85,11 +85,12 @@ p {
 #nav li {
     float: left;
     font-size: 20px;
+    color: #fff;
 }
 
 #nav li a {
     display: block;
-    color: #000;
+    color: #fff;
     text-align: center;
     padding: 3px 40px;
     text-decoration: none;
@@ -112,6 +113,7 @@ p {
 #inter{
   position:absolute;
   font-family: sans-serif;
+  color: #fff;
   top: 50%;
   left: 50%;
   width: 400px;
@@ -127,19 +129,20 @@ p {
   text-align: center;
   margin-top: 500px;
   font-family: sans-serif;
+  color: #fff;
 
 }
 
 #link{
   margin: 105px;
+  color: #fff;
   /*debugging purposes
   padding: 0;
   border: 1px solid purple;*/
 }
 
 #footer{
-  background-color:white;
-  color: #000;
+  color: #fff;
   height:auto;
   clear:both;
   text-align:center;
