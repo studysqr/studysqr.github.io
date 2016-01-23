@@ -111,6 +111,7 @@ p {
   margin-top: -170px;
   margin-left: -190px;
   align-content: center;
+  align-items: center;
   /*debugging purposes
   border:solid 1px blue;*/
 }
