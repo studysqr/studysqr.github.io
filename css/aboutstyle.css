@@ -1,5 +1,9 @@
 /* Style.ccs */
-
+/*
+*{
+border: 1px solid red;
+}
+*/
 
 body {
   background-color: #fff;
@@ -18,7 +22,7 @@ h1 {
   font-family: sans-serif;
   font-size: 70px;
   text-align: center;
-  color: #000;
+  color: #848484;
   padding: 0px;
   margin: 20px;
   /*debugging purposes
@@ -29,9 +33,11 @@ h2 {
   font-family: sans-serif;;
   font-size: 20px;
   text-align: center;
-  color: #000;
+  color: #A4A4A4;
   padding: 10px;
   margin: 110px;
+  margin-left: 20px;
+  width: 95%;
   /*debugging purposes
   border: 1px solid black;*/
 }
@@ -41,6 +47,9 @@ h3 {
   text-align: center;
   font-size: 15px;
   margin: -100px;
+  margin-left: 0px;
+  width: 100%;
+  color: #A4A4A4;
 }
 /*
 p {
@@ -57,10 +66,9 @@ p {
 /* Divicions */
 
 #header {
-  background-color:#fff;
-  color:#fff;
   text-align:center;
   padding:0px;
+  color: #fff;
   /*debugging purposes
   border: 1px solid red;*/
 }
@@ -80,6 +88,8 @@ p {
     overflow: hidden;
     display: inline-block;
     list-style-type: none;
+    background-color: #F5ECCE;
+    opacity:0.5;
     /*debugging purposes
     border: 1px solid red;*/
 }
@@ -87,14 +97,17 @@ p {
 #nav li {
     float: left;
     font-size: 20px;
+    color: #fff;
 }
 
 #nav li a {
     display: block;
     color: #000;
     text-align: center;
-    padding: 3px 40px;
     text-decoration: none;
+    padding: 3px 40px;
+
+
 }
 
 #nav li a.active {
@@ -110,38 +123,48 @@ p {
   /*debugging purposes
   border: 1px solid yellow;*/
 }
-
+/*
 #inter{
-  position:absolute;
+  background-color: #F5ECCE;
+  opacity:0.5;
   font-family: sans-serif;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 400px;
-  margin-top: -100px;
-  margin-left: -90px;
+  color: #000;
+  margin-top: 150px;
+  margin-left: 550px;
 
+  width: 300px;
+  height: 250px;
   /*debugging purposes
-  border:solid 1px blue;*/
+  border:solid 1px blue;
 }
+*/
 
+#new{
+  color: #000;
+  margin-top: 150px;
+  color: #000;
+  font-family: sans-serif;
+  opacity:0.5;
+}
 #hook{
   text-align: center;
-  margin-top: 500px;
+  margin-top: 50px;
   font-family: sans-serif;
+  color: #000;
 
 }
 
 #link{
   margin: 105px;
+  color: #fff;
+  margin-right: 120px;
   /*debugging purposes
   padding: 0;
   border: 1px solid purple;*/
 }
 
 #footer{
-  background-color:white;
-  color: #000;
+  color: #fff;
   height:auto;
   clear:both;
   text-align:center;
