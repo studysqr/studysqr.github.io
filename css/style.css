@@ -1,10 +1,10 @@
 /* Style.ccs */
-
+/*
 *{
 border: 1px solid red;
 }
 
-
+*/
 body {
   background-color: #fff;
   height: 100px;
@@ -36,7 +36,7 @@ h2 {
   color: #A4A4A4;
   padding: 10px;
   margin: 110px;
-  margin-right: 10px;
+  margin-left: 10px;
   width: 90%;
   /*debugging purposes
   border: 1px solid black;*/
@@ -152,7 +152,7 @@ p {
 #link{
   margin: 105px;
   color: #fff;
-  margin-right: 20px;
+  margin-right: 17px;
   /*debugging purposes
   padding: 0;
   border: 1px solid purple;*/
