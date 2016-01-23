@@ -110,6 +110,7 @@ p {
   height: 400px;
   margin-top: -170px;
   margin-left: -190px;
+  align-content: center;
   /*debugging purposes
   border:solid 1px blue;*/
 }
