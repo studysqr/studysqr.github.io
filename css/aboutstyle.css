@@ -51,16 +51,14 @@ h3 {
   width: 100%;
   color: #A4A4A4;
 }
-/*
+
 p {
-  font-family: inherit;
+  font-family: sans-serif;
   font-size: 14px;
   text-align: center;
   color: #000;
-  padding: 10px;
-  margin: 110px;
   /*debugging purposes
-  border: 1px solid black;
+  border: 1px solid black;*/
 }
 
 /* Divicions */
