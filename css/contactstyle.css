@@ -51,16 +51,15 @@ h3 {
   width: 100%;
   color: #A4A4A4;
 }
-/*
+
 p {
-  font-family: inherit;
-  font-size: 14px;
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 50%;
   text-align: center;
-  color: #000;
-  padding: 10px;
-  margin: 110px;
+  color: #A4A4A4;
   /*debugging purposes
-  border: 1px solid black;
+  border: 1px solid black;*/
 }
 
 /* Divicions */
@@ -125,8 +124,8 @@ p {
     overflow: hidden;
     display: inline-block;
     list-style-type: none;
-    background-color: #F5ECCE;
     opacity:0.5;
+    color: #A4A4A4;
     /*debugging purposes
     border: 1px solid red;*/
 }
@@ -134,7 +133,7 @@ p {
 #inter li {
     float: left;
     font-size: 20px;
-    color: #fff;
+    color: #A4A4A4;
 }
 
 
