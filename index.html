@@ -41,7 +41,9 @@
           var i = JSON.parse(data).length;
           for (p = 0; p < i; p++){
             var k = JSON.parse(data)[p];
-            document.getElementById("log").innerHTML=k.courseNumber;
+            document.getElementById("log").innerHTML=k.coursePrefix + " ";
+            document.getElementById("log").innerHTML=k.courseNumber + " at ";
+            document.getElementById("log").innerHTML=k.location + "\n";
           }
 
         },
