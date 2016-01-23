@@ -37,10 +37,11 @@
         dataType: "text",
         success : function(data){
           //data is a variable containing the returned data
+          console.log(JSON.parse(data));
           var i = JSON.parse(data).length;
           for (p = 0; p < i; p++){
             var k = JSON.parse(data)[p];
-            document.getElementById("log").innerHTML=k;
+            document.getElementById("log").innerHTML=k.courseNumber;
           }
 
         },
