@@ -31,6 +31,39 @@
 
       <script>
 
+      $.ajax({
+        url:"https://watstudy.herokuapp.com/api/all1/",
+        type: 'GET',
+        dataType: "text",
+        success : function(data){
+          //data is a variable containing the returned data
+          console.log(JSON.parse(data));
+          var i = JSON.parse(data).length;
+
+          var a = function(){
+            for (p = 0; p < i; p++){
+              var k = JSON.parse(data)[p];
+              document.writeln(k.coursePrefix + " ");
+            }
+          }
+
+          document.getElementById("log").innerHTML= a();
+
+          // for (p = 0; p < i; p++){
+          //   var k = JSON.parse(data)[p];
+          //   document.getElementById("log2").innerHTML=k.courseNumber + " available at ";
+          // }
+          // for (p = 0; p < i; p++){
+          //   var k = JSON.parse(data)[p];
+          //   document.getElementById("log3").innerHTML=k.location + "\n";
+          // }
+
+        },
+        error: function(error){
+          console.log("error");
+        }
+      });
+
       // $.ajax({
       //   url:"https://watstudy.herokuapp.com/api/all1/",
       //   type: 'GET',
@@ -41,9 +74,9 @@
       //     var i = JSON.parse(data).length;
       //     for (p = 0; p < i; p++){
       //       var k = JSON.parse(data)[p];
-      //       document.getElementById("log").innerHTML=k.coursePrefix + " ";
-      //       document.getElementById("log2").innerHTML=k.courseNumber + " available at ";
-      //       document.getElementById("log3").innerHTML=k.location + "\n";
+      //       document.writeln(k.coursePrefix);
+      //       // document.getElementById("log2").innerHTML=k.courseNumber + " available at ";
+      //       // document.getElementById("log3").innerHTML=k.location + "\n";
       //     }
       //
       //   },
@@ -51,27 +84,6 @@
       //     console.log("error");
       //   }
       // });
-
-      $.ajax({
-        url:"https://watstudy.herokuapp.com/api/all1/",
-        type: 'GET',
-        dataType: "text",
-        success : function(data){
-          //data is a variable containing the returned data
-          console.log(JSON.parse(data));
-          var i = JSON.parse(data).length;
-          for (p = 0; p < i; p++){
-            var k = JSON.parse(data)[p];
-            document.writeln(k.coursePrefix);
-            // document.getElementById("log2").innerHTML=k.courseNumber + " available at ";
-            // document.getElementById("log3").innerHTML=k.location + "\n";
-          }
-
-        },
-        error: function(error){
-          console.log("error");
-        }
-      });
     </script>
       <div id="log"></div>
       <div id="log2"></div>
