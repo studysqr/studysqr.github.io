@@ -94,6 +94,8 @@ p {
     text-align: center;
     padding: 3px 40px;
     text-decoration: none;
+    color: #929292;
+     opacity:0.6;
 }
 
 #nav li a.active {
