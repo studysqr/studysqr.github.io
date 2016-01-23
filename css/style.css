@@ -120,6 +120,7 @@ p {
   position:absolute;
   font-family: sans-serif;
   color: #848484;
+  text-align: center;
   top: 50%;
   left: 50%;
   width: 400px;
@@ -129,10 +130,6 @@ p {
 
   /*debugging purposes
   border:solid 1px blue;*/
-}
-
-#test{
-  text-align: center;
 }
 
 #hook{
