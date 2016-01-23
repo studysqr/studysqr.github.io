@@ -40,7 +40,7 @@
           var i = JSON.parse(data).length;
           for (p = 0; p < i; p++){
             var k = JSON.parse(data)[p];
-            document.write(k + "hello");
+            document.getElementById("log").innerHTML=k;
           }
 
         },
@@ -73,6 +73,8 @@
       //   });
 
     </script>
+
+    <div id="log"></div>
 
     </div>
 
