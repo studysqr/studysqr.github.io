@@ -73,6 +73,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/rain1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.07402e+06,
+		"inputAbbreviatedPath": "\/img\/rain1.jpg",
+		"outputAbbreviatedPath": "\/img\/rain1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rain2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 999698,
+		"inputAbbreviatedPath": "\/img\/rain2.jpg",
+		"outputAbbreviatedPath": "\/img\/rain2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rain3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399666,
+		"inputAbbreviatedPath": "\/img\/rain3.jpg",
+		"outputAbbreviatedPath": "\/img\/rain3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/s.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
