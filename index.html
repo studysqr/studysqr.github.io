@@ -40,14 +40,15 @@
 
           }
 
-        // },
-        // error: function(error){
-        //   var tr="<tr>";
-        //   var td1="<td align=\"center\">"+" No sessions find"+"</td>";
-        //   $("#mytable").append(tr+td1);
-        // }
+
 
       } else {
+        var tr="<tr>";
+        var td1="<td align=\"center\">"+" No sessions find"+"</td>";
+        $("#mytable").append(tr+td1);
+      }
+      },
+      error: function(error){
         var tr="<tr>";
         var td1="<td align=\"center\">"+" No sessions find"+"</td>";
         $("#mytable").append(tr+td1);
