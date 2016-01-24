@@ -29,29 +29,29 @@
 
         if (peemin != 0){
 
-        for(var i=0;i<peemin;i++)
-        {
-          var tr="<tr>";
-          var td1="<td align=\"right\">"+pee[i]["coursePrefix"]+" "+pee[i]["courseNumber"]+"</td>";
-          var td2="<td>"+" at "+"</td>";
-          var td3="<td>"+pee[i]["location"]+"</td></tr>";
+          for(var i=0;i<peemin;i++)
+          {
+            var tr="<tr>";
+            var td1="<td align=\"right\">"+pee[i]["coursePrefix"]+" "+pee[i]["courseNumber"]+"</td>";
+            var td2="<td>"+" at "+"</td>";
+            var td3="<td>"+pee[i]["location"]+"</td></tr>";
 
-          $("#mytable").append(tr+td1+td2+td3);
+            $("#mytable").append(tr+td1+td2+td3);
 
-        }
+          }
 
-      },
-      error: function(error){
+        // },
+        // error: function(error){
+        //   var tr="<tr>";
+        //   var td1="<td align=\"center\">"+" No sessions find"+"</td>";
+        //   $("#mytable").append(tr+td1);
+        // }
+
+      } else {
         var tr="<tr>";
         var td1="<td align=\"center\">"+" No sessions find"+"</td>";
         $("#mytable").append(tr+td1);
       }
-
-    } else {
-      var tr="<tr>";
-      var td1="<td align=\"center\">"+" No sessions find"+"</td>";
-      $("#mytable").append(tr+td1);
-    }
     });
   </script>
 
@@ -59,7 +59,7 @@
   <body>
     <div id="header">
       <!--<h1>StudySqr</h1>-->
-      <img src="../img/logo.png" alt="Logo" style="width:250px;height:100px;">
+      <img src="../img/logo.png" alt="Logo" style="width:250px;height:150px;">
     </div>
 
 
