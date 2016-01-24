@@ -19,12 +19,11 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
-  font-size: 70px;
+  ffont-family: sans-serif;
+  font-size: 20px;
+  width: 50%;
   text-align: center;
-  color: #848484;
-  padding: 0px;
-  margin: 20px;
+  color: #BDBDBD;
   /*debugging purposes
   border: 1px solid black;*/
 }
