@@ -134,6 +134,7 @@ p {
 #inter li {
     /*float: left;
     clear: left;*/
+    font-family: sans-serif;
     font-size: 20px;
     color: #D8D8D8;
     margin-right: 60px;
