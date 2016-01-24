@@ -27,6 +27,8 @@
 
         var peemin = min(pee.length, 10);
 
+        if (peemin != 0){
+
         for(var i=0;i<peemin;i++)
         {
           var tr="<tr>";
@@ -40,8 +42,16 @@
 
       },
       error: function(error){
-        console.log("error");
+        var tr="<tr>";
+        var td1="<td align=\"center\">"+" No sessions find"+"</td>";
+        $("#mytable").append(tr+td1);
       }
+
+    } else {
+      var tr="<tr>";
+      var td1="<td align=\"center\">"+" No sessions find"+"</td>";
+      $("#mytable").append(tr+td1);
+    }
     });
   </script>
 
