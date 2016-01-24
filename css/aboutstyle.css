@@ -67,11 +67,21 @@ p {
   font-size: 20px;
   width: 50%;
   text-align: center;
-  color: #424242;
+  color: #828282;
   /*debugging purposes
   border: 1px solid black;*/
 }
 
+h4 {
+  font-family: sans-serif;
+  font-size: 70px;
+  text-align: center;
+  color: #424242;
+  padding: 0px;
+  margin: 20px;
+  /*debugging purposes
+  border: 1px solid black;*/
+}
 /* Divicions */
 
 #header {
